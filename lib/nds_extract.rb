@@ -37,7 +37,7 @@ end
 def total_gross(source)
   grand_total = 0
   director_index = 0
-  d_hash = directors_totals
+  d_hash = directors_totals(source)
   pp d_hash
   #while director_index < source.length do
    # director_index += 1
