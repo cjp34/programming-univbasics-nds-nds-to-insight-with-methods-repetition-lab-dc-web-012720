@@ -38,7 +38,7 @@ def total_gross(source)
   grand_total = 0
   director_index = 0
   while director_index < source.length do
-    grand_total += directors_totals(source)[:name]
+    grand_total += directors_totals[director_index]
     director_index += 1
   end
 return grand_total
