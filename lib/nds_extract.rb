@@ -42,7 +42,7 @@ def total_gross(source)
   #while director_index < source.length do
    # director_index += 1
  # end
-return grand_total
+#return grand_total
 
   
   # Write this implementation
