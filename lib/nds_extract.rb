@@ -42,8 +42,9 @@ def total_gross(source)
   d_hash = directors_totals(source)
   array = d_hash.key
   binding.pry
-  while director_index < d_hash.length do
-    grand_total += d_hash[]
+ 
+  #while director_index < d_hash.length do
+  #  grand_total += d_hash[]
 
   grand_total = d_hash[0]
   pp grand_total
