@@ -49,7 +49,7 @@ def total_gross(source)
   directors += 1
   end
 return result
-return total
+
   
   # Write this implementation
   #
